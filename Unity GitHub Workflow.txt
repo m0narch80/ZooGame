@@ -1,0 +1,35 @@
+Unity GitHub Workflow
+
+
+OPEN the terminal (Remember to go to the project folder -> cd Desktop/Project_Name)
+
+1)  Always pull the latest changes from the github before starting our projects
+
+		git pull origin main
+
+2) Make sure to save your Unity project
+	
+		Ctrl + S
+		
+		
+----------- After getting done with our work --------------------		
+		
+		
+3) Staging our changes
+		
+		git add .
+		
+
+4) Commit using a message 
+		
+		git commit -m "Describe what we as an individual did for today"
+		
+
+5) Pull Again to avoid pushing conflict
+	
+		git pull origin main
+		
+
+6) Finally, Push your changes to Github
+
+		git push origin main
