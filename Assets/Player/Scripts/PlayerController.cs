@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
                         break;
                 }
     */
-                StartCoroutine(Move(transform));
+    /*            StartCoroutine(Move(transform));
             }
         }
     }
@@ -145,3 +145,4 @@ enum Direction
     South,
     West
 }
+*/
