@@ -519,7 +519,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 48, y: 50.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -643,17 +643,17 @@ MonoBehaviour:
       type: 3}
     probability: 0.003
   smallTiles:
-  - prefab: {fileID: 3717721004182593043, guid: 710e601ee5f952642b53ad00c0014b83,
+  - prefab: {fileID: 2709000760737965101, guid: 0f027ab2c80cb4566b7effac0e664966,
       type: 3}
     probability: 0.95
-  - prefab: {fileID: 8728721257253985283, guid: 5d8a80aa951a7a649925c3fb07fb4bc6,
+  - prefab: {fileID: 8258367341559950018, guid: 08d2cab3f97bd5e5fb829f4007971840,
       type: 3}
     probability: 0.05
   smallObjects:
-  - prefab: {fileID: 8636078411793827785, guid: fb90c01ea18ab15419fc79b12d7c6e43,
+  - prefab: {fileID: 6112014621416506952, guid: d280db2ace64f8a698ad1e359e858c68,
       type: 3}
     probability: 0.01
-  - prefab: {fileID: 6697496450003655374, guid: 433af8a9fb3c41a428aec1cd15cfbd8c,
+  - prefab: {fileID: 7827590219976514204, guid: 6edb2d05fc07faa39b52d5d8cf3d8b7c,
       type: 3}
     probability: 0.01
 --- !u!4 &1431984035
@@ -755,7 +755,7 @@ Transform:
   m_GameObject: {fileID: 1578073056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
