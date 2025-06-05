@@ -488,8 +488,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -105541197
+  m_SortingLayer: 3
   m_SortingOrder: 10
   m_Sprite: {fileID: -7901901646303618537, guid: 2405eb6ac9bf5754f98c4f409c4bceb7,
     type: 3}
@@ -772,13 +772,23 @@ MonoBehaviour:
   - prefab: {fileID: 7318383804895292427, guid: 5f4b466fb713e18c5a4d4c904953117b,
       type: 3}
     probability: 0.003
+    width: 3
+    height: 3
+  - prefab: {fileID: 514378769035993391, guid: ea3c4c70dc1ba0544a62d0cd3ab4b822, type: 3}
+    probability: 0.001
+    width: 2
+    height: 2
   smallTiles:
   - prefab: {fileID: 2709000760737965101, guid: 0f027ab2c80cb4566b7effac0e664966,
       type: 3}
     probability: 0.95
+    width: 1
+    height: 1
   - prefab: {fileID: 8258367341559950018, guid: 08d2cab3f97bd5e5fb829f4007971840,
       type: 3}
     probability: 0.05
+    width: 1
+    height: 1
   smallObjects:
   - prefab: {fileID: 6112014621416506952, guid: d280db2ace64f8a698ad1e359e858c68,
       type: 3}
@@ -788,6 +798,8 @@ MonoBehaviour:
     probability: 0.01
   - prefab: {fileID: 518268596242082219, guid: ee9980392814ba345ba8b4b6405441b8, type: 3}
     probability: 0.01
+  - prefab: {fileID: 597121561052322614, guid: 810f3c723f701144eac38ff991135da2, type: 3}
+    probability: 0.005
 --- !u!4 &1431984035
 Transform:
   m_ObjectHideFlags: 0

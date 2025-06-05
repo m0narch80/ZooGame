@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -6,6 +7,8 @@ public class TileData
 {
     public GameObject prefab;
     [Range(0f, 1f)] public float probability;
+    public int width = 1;  // default for small tiles
+    public int height = 1;
 }
 
 [System.Serializable]
@@ -43,15 +46,19 @@ public class MoonGenerator : MonoBehaviour
         // 1. Place big tiles
         foreach (var tile in bigTiles)
         {
-            for (int x = 0; x < width - 3 + 1; x++)  // Adjust 3 for your big tile size
+            int sizeX = tile.width;
+            int sizeY = tile.height;
+
+            for (int x = 0; x <= width - sizeX; x++)
             {
-                for (int y = 0; y < height - 3 + 1; y++)
+                for (int y = 0; y <= height - sizeY; y++)
                 {
-                    if (UnityEngine.Random.value <= tile.probability && CanPlaceBigTile(occupied, x, y, 3, 3))
+                    if (UnityEngine.Random.value <= tile.probability &&
+                        CanPlaceBigTile(occupied, x, y, sizeX, sizeY))
                     {
-                        Vector3 position = new Vector3(x + -0.5f, y + -0.5f, 0);
+                        Vector3 position = new Vector3(x - 0.5f, y - 0.5f, 0); // Adjust as needed
                         Instantiate(tile.prefab, position, Quaternion.identity, container);
-                        MarkOccupied(occupied, x, y, 3, 3);
+                        MarkOccupied(occupied, x, y, sizeX, sizeY);
                     }
                 }
             }
@@ -76,20 +83,29 @@ public class MoonGenerator : MonoBehaviour
             }
         }
 
-        // 3. Place small objects individually based on their own probabilities
+        // 3. Place small objects with random offset within tile, no overlap
+        HashSet<Vector2Int> occupiedByObjects = new HashSet<Vector2Int>();
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
-                if (!occupied[x, y])
+                Vector2Int tilePos = new Vector2Int(x, y);
+
+                if (!occupied[x, y] && !occupiedByObjects.Contains(tilePos))
                 {
                     foreach (var obj in smallObjects)
                     {
                         if (UnityEngine.Random.value <= obj.probability)
                         {
-                            Vector3 position = new Vector3(x, y, -0.1f);
+                            // Randomize position within the tile
+                            float offsetX = UnityEngine.Random.Range(0.1f, 0.5f);
+                            float offsetY = UnityEngine.Random.Range(0.1f, 0.5f);
+                            Vector3 position = new Vector3(x + offsetX, y + offsetY, -0.1f);
+
                             Instantiate(obj.prefab, position, Quaternion.identity, container);
-                            break; // only place one object per tile
+                            occupiedByObjects.Add(tilePos); // prevent another object here
+                            break;
                         }
                     }
                 }
