@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f245bfcaaf65eba46a75fdcb529677a9
+guid: accd8c817d04e63a69fa8d4ca303f0ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5730449158115374944
-    second: Astronaut R2_0
+      213: 7162559156448549611
+    second: Cracked Zoo Tile #2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Astronaut R2_0
+      name: Cracked Zoo Tile #2_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 4
-        width: 33
-        height: 56
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06737e8e525a68f40800000000000000
-      internalID: 5730449158115374944
+      spriteID: bea56da9a95866360800000000000000
+      internalID: 7162559156448549611
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Astronaut R2_0: 5730449158115374944
+      Cracked Zoo Tile #2_0: 7162559156448549611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

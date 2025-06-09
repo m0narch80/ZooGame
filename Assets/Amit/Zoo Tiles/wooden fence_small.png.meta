@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: f245bfcaaf65eba46a75fdcb529677a9
+guid: 11a3d6713b2d8d750b9cfc2de1d8cefc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5730449158115374944
-    second: Astronaut R2_0
+      213: -4306802903687551233
+    second: wooden fence_small_0
+  - first:
+      213: 3537927364746174827
+    second: wooden fence_small_1
+  - first:
+      213: 1607108768030019834
+    second: wooden fence_small_2
+  - first:
+      213: -7177949583345209512
+    second: wooden fence_small_3
+  - first:
+      213: -1782466871619467541
+    second: wooden fence_small_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Astronaut R2_0
+      name: wooden fence_small_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 4
-        width: 33
-        height: 56
+        x: 2
+        y: 58
+        width: 44
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06737e8e525a68f40800000000000000
-      internalID: 5730449158115374944
+      spriteID: ff62518d3992b34c0800000000000000
+      internalID: -4306802903687551233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden fence_small_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6164d8813e391130800000000000000
+      internalID: 3537927364746174827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden fence_small_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 71
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af058d1e8e89d4610800000000000000
+      internalID: 1607108768030019834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden fence_small_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fab0562ecc26c90800000000000000
+      internalID: -7177949583345209512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden fence_small_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 23
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6483df2d76347e0800000000000000
+      internalID: -1782466871619467541
       vertices: []
       indices: 
       edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Astronaut R2_0: 5730449158115374944
+      wooden fence_small_0: -4306802903687551233
+      wooden fence_small_1: 3537927364746174827
+      wooden fence_small_2: 1607108768030019834
+      wooden fence_small_3: -7177949583345209512
+      wooden fence_small_4: -1782466871619467541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
