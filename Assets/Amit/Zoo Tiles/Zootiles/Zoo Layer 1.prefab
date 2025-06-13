@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3736049107892040935}
   - component: {fileID: 6329275944965265584}
   - component: {fileID: 6543888179519991505}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,8 +687,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2048652033058207937}
   - component: {fileID: 4600854415103784596}
-  m_Layer: 0
-  m_Name: Zoo
+  m_Layer: 20
+  m_Name: Zoo Layer 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
