@@ -16153,7 +16153,6 @@ GameObject:
   - component: {fileID: 1693306359}
   - component: {fileID: 1693306358}
   - component: {fileID: 1693306357}
-  - component: {fileID: 1693306356}
   - component: {fileID: 1693306355}
   - component: {fileID: 1693306354}
   - component: {fileID: 1693306360}
@@ -16232,19 +16231,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.96875, y: 1.75}
   m_EdgeRadius: 0
---- !u!114 &1693306356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693306353}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9310dce245d9f4fde85df5bb60699ae6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 3
 --- !u!50 &1693306357
 Rigidbody2D:
   serializedVersion: 5
